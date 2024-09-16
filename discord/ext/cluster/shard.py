@@ -5,7 +5,7 @@ import json
 import logging
 
 from websockets.client import connect
-from discord.ext.commands import Bot, Cog, AutoShardedBot
+from disnake.ext.commands import Bot, Cog, AutoShardedBot
 from .errors import NotConnected
 from .objects import ClientPayload
 from websockets.server import WebSocketServerProtocol
